@@ -224,6 +224,15 @@
 		5831AD5218C6D6B3005BED14 /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD5118C6D6B3005BED14 /* newton-ipad.png */; };
 		5831AD5418C6D6B3005BED14 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD5318C6D6B3005BED14 /* newton.plist */; };
 		5831AD5618C6D6B3005BED14 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD5518C6D6B3005BED14 /* newton.png */; };
+		5831AD6518C797B1005BED14 /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD5F18C797B1005BED14 /* monster-hd.png */; };
+		5831AD6618C797B1005BED14 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6018C797B1005BED14 /* monster.png */; };
+		5831AD6718C797B1005BED14 /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6118C797B1005BED14 /* player-hd.png */; };
+		5831AD6818C797B1005BED14 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6218C797B1005BED14 /* player.png */; };
+		5831AD6918C797B1005BED14 /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6318C797B1005BED14 /* projectile-hd.png */; };
+		5831AD6A18C797B1005BED14 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6418C797B1005BED14 /* projectile.png */; };
+		5831AD6D18C797BF005BED14 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6B18C797BF005BED14 /* background-music-aac.caf */; };
+		5831AD6E18C797BF005BED14 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5831AD6C18C797BF005BED14 /* pew-pew-lei.caf */; };
+		5831AD7118C81B3A005BED14 /* CrazyNinjaScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5831AD7018C81B3A005BED14 /* CrazyNinjaScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -682,6 +691,16 @@
 		5831AD5118C6D6B3005BED14 /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
 		5831AD5318C6D6B3005BED14 /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
 		5831AD5518C6D6B3005BED14 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
+		5831AD5F18C797B1005BED14 /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monster-hd.png"; path = "../../../Downloads/ResourcePack 2/Art/monster-hd.png"; sourceTree = "<group>"; };
+		5831AD6018C797B1005BED14 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monster.png; path = "../../../Downloads/ResourcePack 2/Art/monster.png"; sourceTree = "<group>"; };
+		5831AD6118C797B1005BED14 /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "player-hd.png"; path = "../../../Downloads/ResourcePack 2/Art/player-hd.png"; sourceTree = "<group>"; };
+		5831AD6218C797B1005BED14 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = "../../../Downloads/ResourcePack 2/Art/player.png"; sourceTree = "<group>"; };
+		5831AD6318C797B1005BED14 /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "projectile-hd.png"; path = "../../../Downloads/ResourcePack 2/Art/projectile-hd.png"; sourceTree = "<group>"; };
+		5831AD6418C797B1005BED14 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = projectile.png; path = "../../../Downloads/ResourcePack 2/Art/projectile.png"; sourceTree = "<group>"; };
+		5831AD6B18C797BF005BED14 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "background-music-aac.caf"; path = "../../../Downloads/ResourcePack 2/Sounds/background-music-aac.caf"; sourceTree = "<group>"; };
+		5831AD6C18C797BF005BED14 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pew-pew-lei.caf"; path = "../../../Downloads/ResourcePack 2/Sounds/pew-pew-lei.caf"; sourceTree = "<group>"; };
+		5831AD6F18C81B3A005BED14 /* CrazyNinjaScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyNinjaScene.h; sourceTree = "<group>"; };
+		5831AD7018C81B3A005BED14 /* CrazyNinjaScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyNinjaScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +772,14 @@
 		5831AAA218C6D6AF005BED14 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5831AD6B18C797BF005BED14 /* background-music-aac.caf */,
+				5831AD6C18C797BF005BED14 /* pew-pew-lei.caf */,
+				5831AD5F18C797B1005BED14 /* monster-hd.png */,
+				5831AD6018C797B1005BED14 /* monster.png */,
+				5831AD6118C797B1005BED14 /* player-hd.png */,
+				5831AD6218C797B1005BED14 /* player.png */,
+				5831AD6318C797B1005BED14 /* projectile-hd.png */,
+				5831AD6418C797B1005BED14 /* projectile.png */,
 				5831AAA318C6D6AF005BED14 /* Default.png */,
 				5831AAA518C6D6AF005BED14 /* Default@2x.png */,
 				5831AAA718C6D6AF005BED14 /* Default-568h@2x.png */,
@@ -1592,6 +1619,8 @@
 				5831AD4218C6D6B3005BED14 /* LightBulb.m */,
 				5831AD4418C6D6B3005BED14 /* Rope.h */,
 				5831AD4518C6D6B3005BED14 /* Rope.m */,
+				5831AD6F18C81B3A005BED14 /* CrazyNinjaScene.h */,
+				5831AD7018C81B3A005BED14 /* CrazyNinjaScene.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1666,8 +1695,11 @@
 			files = (
 				5831AAA618C6D6AF005BED14 /* Default@2x.png in Resources */,
 				5831AAB918C6D6B0005BED14 /* Icon-120.png in Resources */,
+				5831AD6818C797B1005BED14 /* player.png in Resources */,
+				5831AD6E18C797BF005BED14 /* pew-pew-lei.caf in Resources */,
 				5831ACBD18C6D6B3005BED14 /* LICENSE_CCBReader.txt in Resources */,
 				5831AD5018C6D6B3005BED14 /* newton-ipad.plist in Resources */,
+				5831AD6618C797B1005BED14 /* monster.png in Resources */,
 				5831AD4C18C6D6B3005BED14 /* newton-ipadhd.plist in Resources */,
 				5831AAAF18C6D6B0005BED14 /* Icon@2x.png in Resources */,
 				5831AAC118C6D6B0005BED14 /* Icon-Small@2x.png in Resources */,
@@ -1682,9 +1714,11 @@
 				5831AD4818C6D6B3005BED14 /* fire.plist in Resources */,
 				5831AD4A18C6D6B3005BED14 /* fire.png in Resources */,
 				5831AD5218C6D6B3005BED14 /* newton-ipad.png in Resources */,
+				5831AD6518C797B1005BED14 /* monster-hd.png in Resources */,
 				5831ACA618C6D6B3005BED14 /* LICENSE_Kazmath.txt in Resources */,
 				5831AAB118C6D6B0005BED14 /* Icon-72.png in Resources */,
 				5831ABFF18C6D6B1005BED14 /* LICENSE_cocos2d.txt in Resources */,
+				5831AD6A18C797B1005BED14 /* projectile.png in Resources */,
 				5831AD4E18C6D6B3005BED14 /* newton-ipadhd.png in Resources */,
 				5831AAA818C6D6AF005BED14 /* Default-568h@2x.png in Resources */,
 				5831AAC818C6D6B0005BED14 /* iTunesArtwork in Resources */,
@@ -1695,7 +1729,10 @@
 				5831AAC518C6D6B0005BED14 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				5831AAB518C6D6B0005BED14 /* Icon-76.png in Resources */,
 				5831AC8B18C6D6B2005BED14 /* ChangeLog in Resources */,
+				5831AD6718C797B1005BED14 /* player-hd.png in Resources */,
 				5831AACA18C6D6B0005BED14 /* iTunesArtwork@2x in Resources */,
+				5831AD6918C797B1005BED14 /* projectile-hd.png in Resources */,
+				5831AD6D18C797BF005BED14 /* background-music-aac.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1729,6 +1766,7 @@
 				5831ABC318C6D6B1005BED14 /* CCAppDelegate.m in Sources */,
 				5831ABC718C6D6B1005BED14 /* CCDirectorMac.m in Sources */,
 				5831AAFB18C6D6B0005BED14 /* ccDeprecated.m in Sources */,
+				5831AD7118C81B3A005BED14 /* CrazyNinjaScene.m in Sources */,
 				5831AC2A18C6D6B2005BED14 /* ALContext.m in Sources */,
 				5831AB0618C6D6B0005BED14 /* CCDrawNode.m in Sources */,
 				5831ABD718C6D6B1005BED14 /* CCFileUtils.m in Sources */,
@@ -2045,6 +2083,7 @@
 				5831AD5B18C6D6B3005BED14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5831AD5C18C6D6B3005BED14 /* Build configuration list for PBXNativeTarget "Cocos3DSimpleGame" */ = {
 			isa = XCConfigurationList;
@@ -2053,6 +2092,7 @@
 				5831AD5E18C6D6B3005BED14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

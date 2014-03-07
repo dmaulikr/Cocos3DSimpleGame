@@ -11,6 +11,7 @@
 #import "IntroScene.h"
 #import "HelloWorldScene.h"
 #import "NewtonScene.h"
+#import "CrazyNinjaScene.h"
 
 // -----------------------------------------------------------------------
 #pragma mark - IntroScene
@@ -43,23 +44,29 @@
     CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Chalkduster" fontSize:36.0f];
     label.positionType = CCPositionTypeNormalized;
     label.color = [CCColor redColor];
-    label.position = ccp(0.5f, 0.5f); // Middle of screen
+    label.position = ccp(0.5f, 0.7f); // Middle of screen
     [self addChild:label];
     
     // Spinning scene button
     CCButton *spinningButton = [CCButton buttonWithTitle:@"[ Simple Sprite ]" fontName:@"Verdana-Bold" fontSize:18.0f];
     spinningButton.positionType = CCPositionTypeNormalized;
-    spinningButton.position = ccp(0.5f, 0.35f);
+    spinningButton.position = ccp(0.5f, 0.5f);
     [spinningButton setTarget:self selector:@selector(onSpinningClicked:)];
     [self addChild:spinningButton];
 
     // Next scene button
     CCButton *newtonButton = [CCButton buttonWithTitle:@"[ Newton Physics ]" fontName:@"Verdana-Bold" fontSize:18.0f];
     newtonButton.positionType = CCPositionTypeNormalized;
-    newtonButton.position = ccp(0.5f, 0.20f);
+    newtonButton.position = ccp(0.5f, 0.35f);
     [newtonButton setTarget:self selector:@selector(onNewtonClicked:)];
     [self addChild:newtonButton];
-	
+    
+    //CrazyNinja button
+    CCButton *crazyNinjaButton = [CCButton buttonWithTitle:@"[ Crazy Ninjas ]" fontName:@"Verdana-Bold" fontSize:18.0f];
+    crazyNinjaButton.positionType = CCPositionTypeNormalized;
+	crazyNinjaButton.position = ccp(0.5f, 0.25f);
+    [crazyNinjaButton setTarget:self selector:@selector(onCrazyNinjaClicked:)];
+    [self addChild:crazyNinjaButton];
     // done
 	return self;
 }
@@ -80,6 +87,12 @@
     // start newton scene with transition
     // the current scene is pushed, and thus needs popping to be brought back. This is done in the newton scene, when pressing back (upper left corner)
     [[CCDirector sharedDirector] pushScene:[NewtonScene scene]
+                            withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1.0f]];
+}
+
+- (void) onCrazyNinjaClicked:(id)sender
+{
+    [[CCDirector sharedDirector] pushScene:[CrazyNinjaScene scene]
                             withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1.0f]];
 }
 
